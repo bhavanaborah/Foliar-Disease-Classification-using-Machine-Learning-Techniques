@@ -1,0 +1,20 @@
+Classification of Chili Leaf Disease Using the Gray Level Co-occurrence Matrix (GLCM) and the
+Support Vector Machine (SVM) Methods
+
+Disease : Leaf Disease (1. Fusarium wilt 2. Leaf Curl. 3. Leaf Spots 4. Ralstonia Bacterial Wilt 5. Yellow Virus.)
+
+Dataset Source : In this step, images of chili leaf are taken from chili plant in Tambak Anyar area, Banjar District. The images taken using smartphone camera with minimal specification of 8 Megapixel.
+
+Dataset Size : The image data used for testing is 25 image data, 5 image data for each chili leaf disease classified in this study.
+
+Preprocessing Techniques :stage. This stage will be carried out using the Matlab application. This data processing will be divided into two parts, namely processing the training data first and then processing the test data [7]. Image data is divided according to the category of the type of disease  that occurs.Then change the pixel size (resize) on all chili leaf image data,in this process the original image is resized to 256x256 pixels.
+
+
+Classifier :Using Gray Level Co-Occurrence Matrix (GLCM)
+
+Accuracy :   88 %
+the accuracy of the trained model for classifying chili leaf diseases is 88%.
+
+
+
+Almost every planting season problem with chili plants often occur in Tambak Anyar area in Banjar District and the most severe problems occurred in 2018, which resulted in considerable losses. The disease identified on chili often attack its leaves.Color moment and Support Vector Machine (SVM). The results obtained are 87% for the average accuracy.Another research about identification of plant disease had been conducted in [11]. They identify diseases in sugarcane plant leaves and the average accuracy is 90.33% better than the previous.This study facilitates the diagnosis of diseases in chili plants with the following stages: feature extraction using Gray Level Co-Occurrence Matrix (GLCM) and classification using Support Vector Machine (SVM). The performance of proposed method evaluated using accuracy metric and obtained value of 88%.
